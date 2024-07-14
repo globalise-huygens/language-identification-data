@@ -8,6 +8,8 @@ Note that the language(s) identified are here based on what is written on the in
 
 Instances of non-Latin scripts in the corpus are first made in Google sheets, then periodically uploaded here in TSV format, each upload overwriting the previous 'pages-nw-scripts.tsv' file so that the changes can be tracked and attributed in GitHub. This data is then converted to web annotations and periodically uploaded to the Globalise infrastructure.
 
+[Link to the dataset](non-latin-script-pages)
+
 ### Pages with monolingual, non-Dutch, Latin script languages
 
 These are whole pages written in a single, non-Dutch, Latin script. Currently, these correspond to the following languages: Danish, German, English, Spanish, Malay (transcribed in Latin script), Italian, Latin, and Portuguese. The initial identifications are made automatically, and then curated manually in Google sheets (contact @kintopp for access). Exports are periodically uploaded here in TSV format, each upload overwriting the previous 'monolingual-nd-pages.tsv' file so that the changes can be tracked and attributed in GitHub. Once all the identified pages have been curated, the respective language codes and page references are converted to web annotations and uploaded to the Globalise infrastructure.
