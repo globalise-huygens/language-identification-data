@@ -6,7 +6,7 @@ Pages in the Globalise VOC corpus written (or printed) in scripts that Loghi can
 
 Note that the language(s) identified are here based on what is written on the individual pages comprising a document. Thus, a two page spread in an inventory, with the left page in Chinese and right page in Dutch will be recorded here as being in Chinese only (since the page(s) of the Chinese document on the left, as a physical artefact, has no other language written on it. However, a single page document with Chinese and Dutch writing on it will be listed as being in both Chinese and Dutch. To aid future automatic language detection of non-western scripts, we also record in the comments field whether the digital facsimile of the page is oriented incorrectly with respect to the viewer (i.e. sideways or upside down). 
 
-Instances of non-Latin scripts in the corpus are first made in Google sheets, then periodically uploaded here in TSV format, each upload overwriting the previous 'pages-nw-scripts.tsv' file so that the changes can be tracked and attributed in GitHub. This data is then converted to web annotations and periodically uploaded to the Globalise infrastructure.
+Instances of non-Latin scripts in the corpus are first made in Google sheets, then periodically uploaded here in TSV format, each upload overwriting the previous 'pages-nl-scripts.tsv' file so that the changes can be tracked and attributed in GitHub. This data is then converted to web annotations and periodically uploaded to the Globalise infrastructure.
 
 [Link to the dataset](non-latin-script-pages)
 
