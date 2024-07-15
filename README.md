@@ -4,7 +4,7 @@ _Please [contact the Globalise Project](https://globalise.huygens.knaw.nl/contac
 
 ### Pages with non-Latin script languages
 
-Pages in the Globalise VOC corpus written (or printed) in scripts that our [HTR tool](https://github.com/knaw-huc/loghi) can't process (in effect, nearly all languages written in non-Latin scripts). Currently, these are being discovered largely manually, recorded in a Google Sheets spreadsheet, and then periodically [exported to this repository](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages). This data is then converted to web annotations and periodically uploaded to the Globalise infrastructure. 
+Pages in the Globalise VOC corpus written (or printed) in scripts that our [HTR tool](https://github.com/knaw-huc/loghi) can't process (in effect, nearly all languages written in non-Latin scripts). Currently, these are being discovered largely manually, recorded in a Google Sheets spreadsheet, and then periodically [exported to this repository](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages). This data is then converted to web annotations and uploaded to the Globalise infrastructure. 
 
 The spreadsheet captures both the language ([ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)) and script ([ISO-15924](https://en.wikipedia.org/wiki/ISO_15924)), together with the inventory number, page, URL ([Globalise Transcriptions Viewer](https://transcriptions.globalise.huygens.knaw.nl/)), and a comment field. The languages identified so far include Persian, Chinese, Sinhalese, and Tamil as well as the special case of pages written in cipher, which is classified as a constructed, artificial language. 
 
