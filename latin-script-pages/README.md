@@ -1,9 +1,9 @@
 These are the main results from the [language detection](https://github.com/knaw-huc/globalise-tools/tree/main/pipelines/langdetect) pipeline:
 
-* `pages.lang.tsv` - Language classification per page
+* `pages.lang.tsv` - All language classification per page
 
-Derived results with text for inspection:
+Derived results with paragraph region text for inspection:
 
-* `nondutch-pages.lang.tsv` - All pages that have been classified as non-dutch exclusively
-* `mixed-pages.lang.tsv` - All pages that have been classified as non-dutch wholly or in part (may be mixed with dutch)
-* `unknown-pages.lang.tsv` - All pages classified as unknown
+* `nondutch-pages.lang.tsv` - Pages that have been classified as exclusively non-Dutch
+* `mixed-pages.lang.tsv` - Pages that have been classified as non-Dutch wholly or in part (may be mixed with Dutch)
+* `unknown-pages.lang.tsv` - Pages classified as unknown (no automatic language classification possible)
