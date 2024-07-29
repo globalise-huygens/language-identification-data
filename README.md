@@ -2,8 +2,6 @@
 
 Data on languages and language scripts identified in the Globalise VOC corpus. Please [contact the Globalise Project](https://globalise.huygens.knaw.nl/contact-us/) if you would like to contribute a new language identification or offer a correction to an existing identification.
 
-Quick Summary:
-
 To date, we have identified pages written (in part or in whole) in the following languages: Dutch, French, Latin, English, Portuguese, Spanish, German, Italian, Malay (in Latin-script), and Danish. In addition, we have manually identified pages written (in part or in whole) in several non-Latin script languages including Malay (in Arabic script), Chinese, Persian, Tamil, and Sinhalese.
 
 - [nondutch-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/nondutch-pages.lang.tsv) - automatically identified pages with a single, non-Dutch, Latin-script language (e.g. French)
@@ -17,4 +15,4 @@ Please see below for more details on the individual datasets and the methodology
 
 ### Methodology
 
-tba
+The starting point for the automatic language identifications is a list of all lines of text in the transcribed Globalise corpus, their content in plaintext, and their layout region (e.g. paragraph, marginalia..). In brief, each character on each line is first examined using a [character based language recognition model](https://github.com/pemistahl/lingua-rs/) for the presence of one or more instances of a pre-selected group of languages known to be present in the corpus (Dutch, French, Latin, English, Portuguese, Spanish, German, Italian, Malay, and Danish). Please note that the HTR transcription platform used by Globalise can only recognize and output text written in Latin-script. This is then checked, on the word level, with a series of lexical models (one per language). Unlike the other models, which were derived from current language data, the Dutch lexicon is derived from ground truth transcriptions of the historical [Globalise VOC corpus](https://www.nationaalarchief.nl/onderzoeken/archief/1.04.02). The predictions of the character and word based models are then reconciled, and a set of heuristics are applied to assign one set of per-page language classifications from the individual, per-line classifications. As a practical matter, since only the paragraph layout region will contain significant amount of text, for the purpose of assigning the per-page language identifications, we have opted to set aside the text found in the remaining layout regions (marginalia, signatures, catch-word, page numbers etc.).    
