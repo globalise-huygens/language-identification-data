@@ -26,6 +26,7 @@ Finally, [corrected-pages.tsv](https://github.com/globalise-huygens/language-ide
 ### Resources
 
 - [langdetect](https://github.com/knaw-huc/globalise-tools/tree/main/pipelines/langdetect) - Pipeline for language detection on the Globalise HTR output
+- [lingua-cli](https://github.com/proycon/lingua-cli) - A command-line tool for language detection, it is a simple wrapper around the [lingua-rs](https://github.com/pemistahl/lingua-rs/) library for Rust
 
 ### Credits
 
