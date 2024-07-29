@@ -23,8 +23,12 @@ Naturally, we are also very interested in identifying those pages that contain o
 
 Finally, [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/tree/main/corrections) consists of a running list of corrections and amendments to the above datasets. Each time we publish a new release of the identified language datasets we incorporate the corrections on this list into it and reset the list to zero.
 
+### Resources
+
+- [langdetect](https://github.com/knaw-huc/globalise-tools/tree/main/pipelines/langdetect) - Pipeline for language detection on the Globalise HTR output
+
 ### Credits
 
-Bram Buitendijk, HuC Digital Infrastructure Department
-Maarten van Gompel, HuC Digital Infrastructure Department
-Arno Bosse, HuC Digital Infrastructure Department; Globalise Project
+- Bram Buitendijk, HuC Digital Infrastructure Department
+- Maarten van Gompel, HuC Digital Infrastructure Department
+- Arno Bosse, HuC Digital Infrastructure Department; Globalise Project
