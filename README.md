@@ -1,6 +1,6 @@
 # language-identification-data
 
-Data on languages and language scripts identified in the Globalise VOC corpus. Please [contact the Globalise Project](https://globalise.huygens.knaw.nl/contact-us/) if you would like to contribute a new language identification or offer a correction to an existing identification.
+Data on languages and language scripts identified in the [Globalise VOC corpus](https://www.nationaalarchief.nl/onderzoeken/archief/1.04.02). Please [contact](https://globalise.huygens.knaw.nl/contact-us/) the Globalise Project if you would like to contribute a new language identification or offer a correction to an existing identification.
 
 To date, we have identified pages written (in part or in whole) in the following Latin-script languages: Dutch, French, Latin, English, Portuguese, Spanish, German, Italian, Malay (in Latin-script), and Danish. In addition, we have manually identified pages written (in part or in whole) in several non-Latin script languages including Malay (in Arabic script), Chinese, Persian, Tamil, and Sinhalese as well as texts written in cipher. Note: In the datasets below, languages and language scripts are identified by their three-letter [ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) and [ISO-15924](https://en.wikipedia.org/wiki/ISO_15924) codes.
 
