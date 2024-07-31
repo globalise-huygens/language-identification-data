@@ -6,10 +6,10 @@ To date, we have identified pages written (in part or in whole) in the following
 
 - [nondutch-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/nondutch-pages.lang.tsv) - automatically identified pages with a single, non-Dutch, Latin-script language (e.g. French); includes the relevant paragraph region texts
 - [mixed-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/mixed-pages.lang.tsv) - automatically identified pages with a mix of Dutch and one or more non-Dutch, Latin-script languages (e.g. Dutch + English); includes the relevant paragraph region texts
-- [pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/pages.lang.tsv) - all pages, including those only in Dutch, with all automatically identified Latin-script languages; does not include any text
-- [non-latin.scripts.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages/non-latin.scripts.tsv) - manually curated list of pages including text in one or more non-Latin scripts (e.g. Arabic), languages (e.g. Persian) and ciphers; does not include any text 
+- [pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/pages.lang.tsv) - all automatically identified pages in Latin-script languages, including those only in Dutch; does not include the paragraph region text
+- [non-latin.scripts.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages/non-latin.scripts.tsv) - manually curated list of pages including text in one or more non-Latin (e.g. Arabic) scripts and languages (e.g. Persian), as well as pages in cipher; does not include the paragraph region text
 - [unknown-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/unknown-pages.lang.tsv) - pages whose languages could not be automatically identified (e.g. blank pages, pages consisting of numerical tables); includes the relevant paragraph region texts
-- [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrected-pages.tsv) - manually curated list of corrections from all the above categories; does not include any text
+- [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrected-pages.tsv) - manually curated list of corrections from all the above categories; does not include the paragraph region text
 
 Please see below for more details on the methodology used to define and create these datasets.
 
