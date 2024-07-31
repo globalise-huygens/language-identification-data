@@ -9,7 +9,7 @@ To date, we have identified pages written (in part or in whole) in the following
 - [pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/pages.lang.tsv) - all automatically identified pages in Latin-script languages, including those only in Dutch; does not include the paragraph region text
 - [non-latin.scripts.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages/non-latin.scripts.tsv) - manually curated list of pages including text in one or more non-Latin (e.g. Arabic) scripts and languages (e.g. Persian), as well as pages in cipher; does not include the paragraph region text
 - [unknown-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/unknown-pages.lang.tsv) - pages whose languages could not be automatically identified (e.g. blank pages, pages consisting of numerical tables); includes the relevant paragraph region texts
-- [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrected-pages.tsv) - manually curated list of corrections from all the above categories; does not include the paragraph region text
+- [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrected-pages.tsv) - manually curated list of corrections of all the automatically identified, Latin-script languages; does not include the paragraph region text
 
 Please see below for more details on the methodology used to define and create these datasets.
 
@@ -23,7 +23,7 @@ We expect, however, that researchers using the Globalise VOC corpus will want to
 
 Naturally, we are also very interested in identifying those pages that contain or consist entirely of text in non-Latin scripts and languages, such as Chinese, Persian, and Tamil or that were written in a secret cipher. Currently, we have not yet attempted to recognize these pages automatically, and are instead manually reviewing selections from [unknown-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/unknown-pages.lang.tsv) for erroneous HTR output that might suggest likely candidates. These pages are recorded in [non-latin.scripts.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages/non-latin.scripts.tsv). We very much welcome further contributions to this list.
 
-Finally, [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/tree/main/corrections) consists of a running list of corrections and amendments to the above datasets. Each time we publish a new release of the identified language datasets we incorporate the corrections on this list into it and reset the list to zero.
+Finally, [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/tree/main/corrections) consists of a running list of corrections and amendments of all the automatically identified, Latin-script languages. Each time we publish a new release of the identified language datasets we incorporate the corrections on this list into it and reset the list to zero.
 
 ### Caveats
 
