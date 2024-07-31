@@ -2,7 +2,7 @@
 
 Data on languages and language scripts identified in the [Globalise VOC corpus](https://www.nationaalarchief.nl/onderzoeken/archief/1.04.02). Please [contact](https://globalise.huygens.knaw.nl/contact-us/) the Globalise Project if you would like to contribute a new language identification or offer a correction to an existing identification.
 
-To date, we have identified c. 12,200 non-Dutch pages written (in part or in whole) in the following languages: French, Latin, English, Portuguese, Spanish, German, Italian, Malay (in Latin-script), and Danish. In addition, we have manually identified a further c. 180 pages written (in part or in whole) in several non-Latin script languages including Malay (in Arabic script), Chinese, Persian, Tamil, and Sinhalese as well as pages written in cipher. Note: In the datasets below, languages and language scripts are identified by their three-letter [ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) and [ISO-15924](https://en.wikipedia.org/wiki/ISO_15924) codes.
+To date, we have identified c. 12,200 non-Dutch pages written (in part or in whole) in the following languages: French, Latin, English, Portuguese, Spanish, German, Italian, Malay (in Latin-script), and Danish. In addition, we have manually identified a further c. 180 pages written (in part or in whole) in several non-Latin script languages including Malay (in Arabic script), Chinese, Persian, Tamil, and Sinhalese as well as pages written in cipher. 
 
 - [nondutchmono-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/nondutch-pages.lang.tsv) - automatically identified pages with a single, non-Dutch, Latin-script language (e.g. French); includes the relevant paragraph region texts
 - [multilingual-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/mixed-pages.lang.tsv) - automatically identified pages with a mix of Dutch and one or more non-Dutch, Latin-script languages (e.g. Dutch + English); includes the relevant paragraph region texts
@@ -11,7 +11,7 @@ To date, we have identified c. 12,200 non-Dutch pages written (in part or in who
 - [unknown-pages.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/latin-script-pages/unknown-pages.lang.tsv) - pages whose languages could not be automatically identified (e.g. blank pages, pages consisting of numerical tables); includes the relevant paragraph region texts
 - [corrected-pages.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrected-pages.tsv) - manually curated list of corrections of all the automatically identified, Latin-script languages; does not include the paragraph region text
 
-Please see below for more details on the methodology used to define and create these datasets.
+In the datasets above, languages and language scripts are identified by their three-letter [ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) and [ISO-15924](https://en.wikipedia.org/wiki/ISO_15924) codes.
 
 ### Methodology
 
