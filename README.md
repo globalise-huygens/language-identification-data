@@ -10,7 +10,7 @@ To date, we have identified c. 12,200 non-Dutch language pages written (in part 
 - [non-latin.scripts.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/non-latin-script-pages/non-latin.scripts.tsv) - a manually curated list of pages with text in one or more languages written in non-Latin scripts, as well as pages written in cipher; includes the page URLs but not the paragraph region texts.
 - [corrections.lang.tsv](https://github.com/globalise-huygens/language-identification-data/blob/main/corrections/corrections.lang.tsv) - a manually curated list of additions and corrections to pages with automatically identified languages. 
 
-In these datasets, the languages and language scripts are identified by their three-letter [ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) and [ISO-15924](https://en.wikipedia.org/wiki/ISO_15924) codes.
+In these datasets, the languages and language scripts are identified by their three-letter [ISO-639-3](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) codes.
 
 ### Methodology
 
