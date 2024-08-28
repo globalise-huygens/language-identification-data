@@ -2,8 +2,7 @@ These are the main results from the [language detection](https://github.com/knaw
 
 * `pages.lang.tsv` - All language classification per page
 
-Derived results with paragraph region text for inspection:
+Derived results with paragraph region text and page URLs:
 
-* `nondutchmono-pages.lang.tsv` - Pages that have been classified exclusively non-Dutch and are monolingual
-* `multilingual-pages.lang.tsv` - Pages that have been classified as a mixture of any two language (may or may not contain Dutch as part of the mix)
+* `nondutch-pages.lang.tsv` - Pages that have been classified exclusively non-Dutch and are monolingual
 * `unknown-pages.lang.tsv` - Pages classified as unknown (no automatic language classification possible)
