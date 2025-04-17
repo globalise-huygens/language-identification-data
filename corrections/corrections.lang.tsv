@@ -627,6 +627,7 @@ inv_nr	page_no	langs	url	corrected
 4340	212	deu	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4340_0212	1
 4367	290	lat	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4367_0290	1
 4367	396	lat,nld	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4367_0396	1
+4381	411	lzh	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4381_0411	0
 4384	29	lzh	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4384_0029	1
 4384	138	deu	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4384_0138	1
 4384	147	lzh,nld	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_4384_0147	1
@@ -748,6 +749,7 @@ inv_nr	page_no	langs	url	corrected
 9405	259	lzh	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_9405_0259	0
 9405	114	guj	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_1143_0114	0
 9405	113	guj	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_1143_0113	0
+9405	259	lzh	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_9405_0259	0
 9435	467	deu	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_9435_0467	1
 9452	214	lat	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_9452_0214	1
 9484	409	fra	https://transcriptions.globalise.huygens.knaw.nl/detail/urn:globalise:NL-HaNA_1.04.02_9484_0409	1
